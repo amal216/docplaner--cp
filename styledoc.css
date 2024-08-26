@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  height: 70px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.logo {
+  height: 33px;
+  width: 268px;
+  background-color: #ffffff;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainMenu {
+  display: flex;
+}
+.mainMenu :hover {
+  color: #00b39b;
+}
+
+.mainmenuitem {
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 30px;
+  padding-left: 20px;
+  color: #ababab;
+}
+.mainmenuitem:hover {
+}
+.submenu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 0 0 0 -100px;
+}
+.mainmenuitem:hover .submenu {
+  cursor: pointer;
+  display: block;
+}
+
+.submenuitem {
+  padding: 10px;
+  color: #ababab;
+}
+.submenuitem:hover {
+  color: #00b39b;
+}
+.menu {
+  width: 70%;
+  margin: 2.0625rem auto 3.75rem;
+}
+.image1 {
+  height: 40px;
+  width: 40px;
+  display: block;
+  padding-top: 110px;
+  margin: 0 auto;
+}
+.section1 h1 {
+  color: #00b39b;
+  margin-top: 50px;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  line-height: 28px;
+  background-color: #ffffff;
+  height: 112px;
+  margin: 13 0 13 0;
+  color: #747474;
+}
+
+.section1 {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  margin-top: 50px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardd {
+  height: 345px;
+  width: 311px;
+  background-color: #00b39b;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cardd i {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardd h1 {
+  margin-left: 20px;
+  font-size: 26px;
+  letter-spacing: -0.3px;
+  line-height: 33.8px;
+  color: #ffffff;
+  font-family: "work sans" Arial, Helvetica, sans-serif;
+}
+.cardd p {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 28.8px;
+  word-spacing: 0px;
+  color: #ffffff;
+  font-family: "work sans", Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
+}
+.card_select {
+  border: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+}
+#selection1 {
+  position: absolute;
+  border: none;
+  left: 20px;
+  bottom: 60px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.sponsor {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 40px 0px;
+}
+.sponsor h1 {
+  font-family: "work sans", Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  color: #00b39b;
+  line-height: 33px;
+  width: 33%;
+  font-weight: 300;
+  margin: 7px 40px 9px 0;
+}
+.logo-cont ul li {
+  font-size: 1rem;
+  margin-top: 0px;
+  width: 25%;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 0;
+}
+.logo-cont ul li div svg {
+  fill: #747474;
+}
+.logo-cont ul li div svg:hover {
+  fill: #00b39b;
+}
+.logo-cont ul li div img {
+  filter: grayscale(100%);
+}
+.logo-cont ul li div img:hover {
+  filter: grayscale(0%);
+}
+.healthcare {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-image:url(https://media.discordapp.net/attachments/1272471880263012430/1275781545608745053/bankaii.png?ex=66c9c6a7&is=66c87527&hm=573a4334ca5be8b0fdbf400b940a9f4b7769af65a7e24ca0528ae697d872b918&=&format=webp&quality=lossless&width=1212&height=571);
+  height: 600px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+  
+    
+
+}
+.healthcare h1 {
+  font-family: "work sans", Arial, Helvetica, sans-serif;
+  color: #00b39b;
+  font-weight: 300;
+  line-height: 44px;
+  font-size: 34px;
+}
+.healthcarehp p {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #747474;
+  width: 415px;
+  height: 48px;
+  margin: 22px 0 22px 0;
+}
+.healthcarehp {
+  display: block;
+  width: 30%;
+  margin-top: 2em;
+  margin-left: 60px;
+  margin-right: 50px;
+  min-height: 1px;
+  padding: 10px;
+}
+.cardcon{
+  background-color:#ffffff;
+  padding: 15px ;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  border: solid #ffffff;
+  height: 260px;
+  width: 228px;
+  margin-bottom:20px;
+  margin-top: 20px;
+  box-shadow: #ffffff 1px  2px  0;
+  border-radius: 5px;
+  color:#747474 ;
+  
+}
+.cardcon h3{
+  color:#00b39B;
+  font-family: "work sans",Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  font-weight: 300;
+  
+  
+
+}
+.cardcon p{
+  font-family: "roboto",Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  color: #747474;
+  font-size: 13px;
+}
+.cardcon img{
+  text-align: center;
+  overflow: clip;
+  color: #747474;
+  background-color: #ffffff;
+}
+.countries {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.countries h1 {
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  text-align: center;
+  color: #00b39B;
+  margin-bottom: 20px;
+  max-width: 460px;
+}
+
+.countries p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #747474;
+  text-align: center;
+  margin-bottom: px;
+  max-width: 460px;
+}
+
+.countcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.cardcountcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(33.333% - 40px);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cardcountcont:last-child {
+  width: 33.333%;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cardcountcont img {
+  width: 100%;
+  height: auto;
+}
+
+.cardcountcont div {
+  padding: 20px;
+}
+
+.cardcountcont h6 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #747474;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.cardcountcont button {
+  background-color: #3D83DF;
+  color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.cardcountcont button:hover {
+  background-color: #010a2c;
+}
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10x;
+}
+
+.end h5 {
+  font-size: 30px;
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 39px;
+  margin-bottom: 23px;
+  color: #00b39B;
+  text-align: center; 
+}
+
+.end button {
+  background-color: #3D83DF;
+  color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.end button:hover {
+  background-color: #010a2c;
+}
